@@ -1,0 +1,40 @@
+{
+  "name": "yt-live",
+  "version": "1.0.0",
+  "description": "YouTube live stream detection for Node.js without requiring an API key.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "sd-yt-live": "./bin/cli.js",
+    "yt-live": "./bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    " yt-live",
+    "youtube-live",
+    "live-only",
+    "no-api-key",
+    "youtube",
+    "live-stream",
+    "stacks-development"
+  ],
+  "author": "Cruz",
+  "license": "MIT"
+}
