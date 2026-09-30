@@ -262,4 +262,4 @@ If not live:
 
 ## License
 
-MIT © [Stacks Development](https://github.com/stacks-development)
+MIT © [Stacks Development](https://github.com/cruz-gaming/yt-live)
